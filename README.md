@@ -1,5 +1,21 @@
 # 水利咨询费用计算技能包
 
+## Muse 入口
+
+如果 Muse 没有自动识别 `.codex/skills`，请让它优先读取：
+
+```text
+MUSE.md
+skills/hydraulic-engineering-design-fee/SKILL.md
+skills/flood-impact-compilation-fee/SKILL.md
+```
+
+仓库地址：
+
+```text
+https://github.com/lish964121/hydro-fee-calculation-skills
+```
+
 本仓库包含两个可供 Codex、Muse、Claude Code 等智能体调用的技能：
 
 1. `flood-impact-compilation-fee`：防洪影响评价报告编制费计算。
@@ -10,6 +26,9 @@
 ## 目录结构
 
 ```text
+MUSE.md
+skills/flood-impact-compilation-fee/SKILL.md
+skills/hydraulic-engineering-design-fee/SKILL.md
 .codex/skills/flood-impact-compilation-fee/SKILL.md
 .codex/skills/hydraulic-engineering-design-fee/SKILL.md
 examples/compilation_fee_input.json
