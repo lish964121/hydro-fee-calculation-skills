@@ -1,0 +1,20 @@
+{
+  "project_name": "某滨水慢道及配套设施项目防洪影响评价",
+  "construction_unit": "某建设单位",
+  "location": "某市某区",
+  "project_type": "滨水慢道及配套设施",
+  "river_level": "区管",
+  "design_flood_standard": "50年一遇",
+  "river_length_km": 5.3,
+  "area_ha": 32.7,
+  "hydraulic_model": "one_d",
+  "complexity": "high",
+  "review_level": "expert_meeting",
+  "deliverables": ["report", "drawings", "gis", "ppt", "meeting_minutes"],
+  "discount": 1.0,
+  "round_to_yuan": 1000,
+  "notes": [
+    "涉及干流及支流河段，需结合项目实际范围核实。",
+    "需重点说明不占用行洪断面、壅水影响、河势稳定和冲淤分析。"
+  ]
+}
