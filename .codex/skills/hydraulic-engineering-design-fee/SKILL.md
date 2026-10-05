@@ -102,7 +102,7 @@ construction_cost_yuan > 50000000：2.6%
 ## 推荐调用
 
 ```bash
-python3 scripts/flood_design_fee_report.py --input examples/design_fee_input.json --output output/水利工程设计费计算说明.docx
+python3 scripts/hydraulic_design_fee_report.py --input examples/design_fee_input.json --output output/水利工程设计费计算说明.docx
 ```
 
 ## 严禁事项
