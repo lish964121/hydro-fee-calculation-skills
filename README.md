@@ -1,9 +1,9 @@
-# 防洪影响评价费用计算技能包
+# 水利咨询费用计算技能包
 
 本仓库包含两个可供 Codex、Muse、Claude Code 等智能体调用的技能：
 
 1. `flood-impact-compilation-fee`：防洪影响评价报告编制费计算。
-2. `flood-impact-design-fee`：涉河工程防洪影响相关设计费计算。
+2. `hydraulic-engineering-design-fee`：水利工程设计费计算。
 
 两个技能均可读取 JSON 参数，输出 Word 计算说明书，适用于报价测算、内部复核和与业主沟通。
 
@@ -11,7 +11,7 @@
 
 ```text
 .codex/skills/flood-impact-compilation-fee/SKILL.md
-.codex/skills/flood-impact-design-fee/SKILL.md
+.codex/skills/hydraulic-engineering-design-fee/SKILL.md
 examples/compilation_fee_input.json
 examples/design_fee_input.json
 scripts/flood_compilation_fee_report.py
@@ -25,7 +25,7 @@ docs/agent_usage.md
 pip install -r requirements.txt
 ```
 
-## 生成编制费 Word
+## 生成防洪影响评价编制费 Word
 
 ```bash
 python3 scripts/flood_compilation_fee_report.py \
@@ -33,12 +33,12 @@ python3 scripts/flood_compilation_fee_report.py \
   --output output/防洪影响评价编制费计算说明.docx
 ```
 
-## 生成设计费 Word
+## 生成水利工程设计费 Word
 
 ```bash
 python3 scripts/flood_design_fee_report.py \
   --input examples/design_fee_input.json \
-  --output output/防洪影响评价设计费计算说明.docx
+  --output output/水利工程设计费计算说明.docx
 ```
 
 ## 使用原则
