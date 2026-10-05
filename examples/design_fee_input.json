@@ -1,0 +1,17 @@
+{
+  "project_name": "某防洪补救措施设计项目",
+  "construction_unit": "某建设单位",
+  "location": "某市某区",
+  "design_stage": "scheme",
+  "engineering_type": "mixed",
+  "construction_cost_yuan": 1800000,
+  "complexity": "high",
+  "flood_review_linked": true,
+  "deliverables": ["cad_drawings", "quantity_list", "cost_estimate", "review_response"],
+  "discount": 1.0,
+  "round_to_yuan": 1000,
+  "notes": [
+    "设计内容按防洪影响评价审查意见配套完善。",
+    "如后续进入施工图阶段，应另行复核设计阶段系数和成果范围。"
+  ]
+}
