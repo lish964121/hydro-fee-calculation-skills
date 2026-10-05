@@ -15,7 +15,7 @@
 examples/compilation_fee_input.json
 examples/design_fee_input.json
 scripts/flood_compilation_fee_report.py
-scripts/flood_design_fee_report.py
+scripts/hydraulic_design_fee_report.py
 docs/agent_usage.md
 ```
 
@@ -36,7 +36,7 @@ python3 scripts/flood_compilation_fee_report.py \
 ## 生成水利工程设计费 Word
 
 ```bash
-python3 scripts/flood_design_fee_report.py \
+python3 scripts/hydraulic_design_fee_report.py \
   --input examples/design_fee_input.json \
   --output output/水利工程设计费计算说明.docx
 ```
