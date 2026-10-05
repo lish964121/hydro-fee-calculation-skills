@@ -21,7 +21,7 @@ scripts/flood_compilation_fee_report.py 输出 Word 文档。
 ```text
 请使用 .codex/skills/hydraulic-engineering-design-fee/SKILL.md 的规则，
 根据建安投资、设计阶段、工程类型和成果范围计算水利工程设计费，
-并调用 scripts/flood_design_fee_report.py 输出 Word 文档。
+并调用 scripts/hydraulic_design_fee_report.py 输出 Word 文档。
 资料缺失时只输出暂估测算，并列出需核实项。
 ```
 
@@ -29,7 +29,7 @@ scripts/flood_compilation_fee_report.py 输出 Word 文档。
 
 ```bash
 python3 scripts/flood_compilation_fee_report.py --input examples/compilation_fee_input.json --output output/防洪影响评价编制费计算说明.docx
-python3 scripts/flood_design_fee_report.py --input examples/design_fee_input.json --output output/水利工程设计费计算说明.docx
+python3 scripts/hydraulic_design_fee_report.py --input examples/design_fee_input.json --output output/水利工程设计费计算说明.docx
 ```
 
 ## 复核要点
